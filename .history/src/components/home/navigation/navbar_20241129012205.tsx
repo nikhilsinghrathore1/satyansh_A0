@@ -31,7 +31,7 @@ const Navbar = async () => {
                     <div className="flex items-center gap-4">
                         {/* {user ? ( */}
                             {/* <UserButton /> */}
-                         
+                         (
                             <>
                                 <Link href="/sign-in" className={buttonVariants({ size: "sm", variant: "ghost" })}>
                                     Login
@@ -40,7 +40,7 @@ const Navbar = async () => {
                                     Start learning
                                 </Link>
                             </>
-                        
+                        )
                     </div>
                 </div>
             </Container>
